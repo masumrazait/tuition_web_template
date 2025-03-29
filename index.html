@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExcelEd Tuition Center - Unlock Your Potential</title>
+    <link rel="stylesheet" href="./Assets/css/styles.css">
+    <link rel="stylesheet" href="./Assets/js/JavaScript.js">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ExcelEd</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#achievers">Achievers</a></li>
+                <li><a href="#toppers">Topper History</a></li>
+                <li><a href="#faculty">Faculty</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="cta-button">Enquire Now</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Excel in Academics with Personalized Learning</h1>
+                <p>Join our expert-led courses and achieve your academic goals with our proven teaching methodology.</p>
+                <div class="hero-buttons">
+                    <button class="primary-button">View Courses</button>
+                    <button class="secondary-button">Book Free Demo</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-students.jpg" alt="Students learning">
+            </div>
+        </section>
+
+        <section class="highlights">
+            <div class="highlight-card">
+                <div class="icon">🎯</div>
+                <h3>95% Success Rate</h3>
+                <p>Our students consistently achieve top grades</p>
+            </div>
+            <div class="highlight-card">
+                <div class="icon">👨‍🏫</div>
+                <h3>Expert Faculty</h3>
+                <p>Learn from subject matter experts</p>
+            </div>
+            <div class="highlight-card">
+                <div class="icon">📚</div>
+                <h3>Comprehensive Material</h3>
+                <p>Curated study resources for every course</p>
+            </div>
+            <div class="highlight-card">
+                <div class="icon">📈</div>
+                <h3>Performance Tracking</h3>
+                <p>Regular assessments and progress reports</p>
+            </div>
+        </section>
+
+        <section class="success-rate">
+            <h2>Our Success Rate Over the Years</h2>
+            <div class="progress-container">
+                <div class="progress-bar" style="width: 85%">2019 - 85%</div>
+                <div class="progress-bar" style="width: 88%">2020 - 88%</div>
+                <div class="progress-bar" style="width: 92%">2021 - 92%</div>
+                <div class="progress-bar" style="width: 95%">2022 - 95%</div>
+            </div>
+        </section>
+
+        <section class="courses" id="courses">
+            <h2>Our Courses</h2>
+            
+            <div class="course-filters">
+                <button class="filter-button active" data-filter="all">All</button>
+                <button class="filter-button" data-filter="science">Science</button>
+                <button class="filter-button" data-filter="commerce">Commerce</button>
+                <button class="filter-button" data-filter="arts">Arts</button>
+                <button class="filter-button" data-filter="competitive">Competitive Exams</button>
+            </div>
+        
+            <div class="course-grid">
+                <!-- Courses will be dynamically inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <section class="achievers" id="achievers">
+            <h2>Our Achievers</h2>
+            <p class="section-subtitle">Students who have excelled with our guidance</p>
+            
+            <div class="achievers-grid">
+                <div class="achiever-card">
+                    <img src="images/student1.jpg" alt="Rahul Sharma">
+                    <h3>Rahul Sharma</h3>
+                    <p class="achievement">98.4% in CBSE Class 12</p>
+                    <p class="testimonial">"ExcelEd's personalized attention helped me overcome my weaknesses in Physics and score exceptionally well."</p>
+                </div>
+        
+                <div class="achiever-card">
+                    <img src="images/student2.jpg" alt="Priya Patel">
+                    <h3>Priya Patel</h3>
+                    <p class="achievement">JEE Advanced Rank 142</p>
+                    <p class="testimonial">"The faculty's problem-solving approach gave me the edge I needed to crack JEE with a great rank."</p>
+                </div>
+        
+                <!-- More achiever cards -->
+            </div>
+        </section>
+
+        <section class="toppers" id="toppers">
+            <h2>Our Toppers Through the Years</h2>
+            
+            <div class="year-selector">
+                <!-- Year buttons will be dynamically generated by JavaScript -->
+            </div>
+        
+            <div class="topper-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Photo</th>
+                            <th>Roll No.</th>
+                            <th>Name</th>
+                            <th>Score</th>
+                            <th>Rank</th>
+                            <th>Success Story</th>
+                        </tr>
+                    </thead>
+                    <tbody id="topper-data">
+                        <!-- Topper data will be dynamically inserted here by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        
+            <!-- Success Story Modal -->
+            <div class="modal" id="storyModal">
+                <div class="modal-content">
+                    <span class="close-button">&times;</span>
+                    <h3 id="modal-title">Success Story</h3>
+                    <div id="modal-story"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faculty" id="faculty">
+            <h2>Meet Our Expert Faculty</h2>
+            
+            <div class="faculty-grid">
+                <div class="faculty-card">
+                    <img src="images/teacher1.jpg" alt="Dr. Sanjay Mathur">
+                    <h3>Dr. Sanjay Mathur</h3>
+                    <p class="qualification">PhD in Physics, IIT Delhi</p>
+                    <p class="experience">15+ years teaching experience</p>
+                    <p class="specialization">Specializes in Advanced Physics for JEE</p>
+                    <div class="teacher-bio">
+                        <p>Former HOD at prestigious engineering college, author of 3 physics textbooks.</p>
+                    </div>
+                </div>
+        
+                <div class="faculty-card">
+                    <img src="images/teacher2.jpg" alt="Ms. Anjali Kapoor">
+                    <h3>Ms. Anjali Kapoor</h3>
+                    <p class="qualification">M.Sc Chemistry, Delhi University</p>
+                    <p class="experience">12+ years teaching experience</p>
+                    <p class="specialization">Specializes in Organic Chemistry</p>
+                    <div class="teacher-bio">
+                        <p>Known for making complex chemical concepts easy to understand.</p>
+                    </div>
+                </div>
+                <!-- More faculty cards -->
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <div class="contact-detail">
+                        <span>📌</span>
+                        <p>ExcelEd Tuition Center<br>123 Education Lane<br>Knowledge City, 110001</p>
+                    </div>
+                    <div class="contact-detail">
+                        <span>📞</span>
+                        <p>+91 98765 43210</p>
+                    </div>
+                    <div class="contact-detail">
+                        <span>✉️</span>
+                        <p>info@exceled.com</p>
+                    </div>
+                    <div class="contact-hours">
+                        <h3>Operating Hours</h3>
+                        <p>Monday-Friday: 8AM - 8PM</p>
+                        <p>Saturday: 8AM - 4PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+        
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.367471143034!2d77.12345678901234!3d28.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDA3JzI0LjQiTiA3N8KwMDcnMjQuNCJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" 
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        
+            <div class="contact-form">
+                <h3>Send us a Message</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        
+
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+    </footer>
+    <script src="./Assets/js/JavaScript.js"></script>
+    <script src="./Assets/js/course.js"></script>
+</body>
+</html>
