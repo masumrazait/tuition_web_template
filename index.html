@@ -3,31 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ExcelEd Tuition Center - Unlock Your Potential</title>
+    <title>Uttam Coaching Center - Unlock Your Potential</title>
     <link rel="stylesheet" href="./Assets/css/styles.css">
+    <link rel="stylesheet" href="./Assets/css/custom.css">
     <link rel="stylesheet" href="./Assets/js/JavaScript.js">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">ExcelEd</div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#achievers">Achievers</a></li>
-                <li><a href="#toppers">Topper History</a></li>
-                <li><a href="#faculty">Faculty</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="cta-button">Enquire Now</button>
+          <div class="logo">Uttam Coaching Center</div>
+          <div class="hamburger-menu" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#achievers">Achievers</a></li>
+            <li><a href="#toppers">Toppers</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="cta-button">Enquire Now</button>
         </nav>
-    </header>
+      </header>
 
     <main>
         <section class="hero" id="home">
             <div class="hero-content">
-                <h1>Excel in Academics with Personalized Learning</h1>
-                <p>Join our expert-led courses and achieve your academic goals with our proven teaching methodology.</p>
+                <h1>Uttam Coaching Center in Academics with Personalized Learning</h1>
+                <p>Join our uttam coaching center courses and achieve your academic goals with our proven teaching methodology.</p>
                 <div class="hero-buttons">
                     <button class="primary-button">View Courses</button>
                     <button class="secondary-button">Book Free Demo</button>
@@ -64,10 +70,10 @@
         <section class="success-rate">
             <h2>Our Success Rate Over the Years</h2>
             <div class="progress-container">
-                <div class="progress-bar" style="width: 85%">2019 - 85%</div>
-                <div class="progress-bar" style="width: 88%">2020 - 88%</div>
-                <div class="progress-bar" style="width: 92%">2021 - 92%</div>
-                <div class="progress-bar" style="width: 95%">2022 - 95%</div>
+                <div class="progress-bar" style="width: 85%">2022 - 85%</div>
+                <div class="progress-bar" style="width: 88%">2023 - 88%</div>
+                <div class="progress-bar" style="width: 92%">2024 - 92%</div>
+                <div class="progress-bar" style="width: 95%">2025 - 95%</div>
             </div>
         </section>
 
@@ -96,7 +102,7 @@
                     <img src="images/student1.jpg" alt="Rahul Sharma">
                     <h3>Rahul Sharma</h3>
                     <p class="achievement">98.4% in CBSE Class 12</p>
-                    <p class="testimonial">"ExcelEd's personalized attention helped me overcome my weaknesses in Physics and score exceptionally well."</p>
+                    <p class="testimonial">"Uttam Coaching Center personalized attention helped me overcome my weaknesses in Physics and score exceptionally well."</p>
                 </div>
         
                 <div class="achiever-card">
@@ -180,15 +186,15 @@
                     <h2>Get in Touch</h2>
                     <div class="contact-detail">
                         <span>📌</span>
-                        <p>ExcelEd Tuition Center<br>123 Education Lane<br>Knowledge City, 110001</p>
+                        <p>Uttam Coaching Center<br>Near Kali Temple<br>Basantpur Bangla City, 841401</p>
                     </div>
                     <div class="contact-detail">
                         <span>📞</span>
-                        <p>+91 98765 43210</p>
+                        <p>+91 7779960677</p>
                     </div>
                     <div class="contact-detail">
                         <span>✉️</span>
-                        <p>info@exceled.com</p>
+                        <p>infoUttamCoachingCenter@gmail.com</p>
                     </div>
                     <div class="contact-hours">
                         <h3>Operating Hours</h3>
@@ -228,10 +234,86 @@
 
     </main>
 
-    <footer>
-        <!-- Footer content -->
+    <footer class="site-footer">
+        <div class="footer-content">
+          <p class="copyright-text">© 2025 Uttam Coaching Center. All Rights Reserved | Designed by Masum Raza</p>
+        </div>
     </footer>
+
+    <!-- Add this just for popup tag -->
+<div class="enquiry-modal" id="enquiryModal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-container">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      
+      <div class="modal-header">
+        <h2>Get in Touch</h2>
+        <p>Contact Uttam Cochin Center for more information</p>
+      </div>
+      
+      <div class="contact-options">
+        <!-- Phone Option -->
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3 2h18a1 1 0 011 1v18a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1zm17 18V4H4v16h16zm-5-9v2h2v-2h-2zm-3 0v2h2v-2h-2zm-3 0v2h2v-2H9z"/>
+            </svg>
+          </div>
+          <div class="contact-info">
+            <h3>Call Us</h3>
+            <p>+91 98765 43210</p>
+            <a href="tel:+919876543210" class="action-btn phone-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 15.5c-1.2 0-2.5-.2-3.6-.6h-.3c-.3 0-.5.1-.7.3l-2.2 2.2c-2.8-1.5-5.2-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.4-.5-3.6 0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1 0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1z"/>
+              </svg>
+              Call Now
+            </a>
+          </div>
+        </div>
+        
+        <!-- Email Option -->
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+          </div>
+          <div class="contact-info">
+            <h3>Email Us</h3>
+            <p>enquiry@uttamcochin.com</p>
+            <a href="mailto:enquiry@uttamcochin.com" class="action-btn email-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/>
+              </svg>
+              Send Email
+            </a>
+          </div>
+        </div>
+        
+        <!-- WhatsApp Option -->
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.5 14.4l-2.2-2.2c-.2-.2-.5-.2-.7 0l-1.3 1.3c-.6.6-1.5.6-2.1 0-1.5-1.5-1.5-3.8 0-5.3l1.3-1.3c.2-.2.2-.5 0-.7L9.6 6.5c-.2-.2-.5-.2-.7 0l-1.8 1.8c-.6.6-1 1.4-1.1 2.3-.3 2.5 1.5 5.6 4.4 8.5 2.9 2.9 6 4.7 8.5 4.4.9-.1 1.7-.5 2.3-1.1l1.8-1.8c.2-.2.2-.5 0-.7zM12 3.6c2.1 0 4.1.8 5.6 2.3 3.1 3.1 3.1 8.1 0 11.2-3.1 3.1-8.1 3.1-11.2 0-1.5-1.5-2.3-3.5-2.3-5.6 0-1.3.3-2.5.9-3.6l.2-.3L7.2 7l-.3.2c-1 .6-1.6 1.8-1.6 3.1 0 1.9.7 3.7 2.1 5.1 2.8 2.8 7.3 2.8 10.1 0 2.8-2.8 2.8-7.3 0-10.1-1.4-1.4-3.2-2.1-5.1-2.1-1.3 0-2.5.6-3.1 1.6l-.2.3-1.4-1.4.3-.2c1.1-.6 2.3-.9 3.6-.9z"/>
+            </svg>
+          </div>
+          <div class="contact-info">
+            <h3>WhatsApp</h3>
+            <p>Scan to chat directly</p>
+            <div class="qr-container">
+              <img src="data:image/svg+xml;base64,[BASE64_ENCODED_QR_CODE]" 
+                   alt="WhatsApp QR Code" 
+                   width="120" 
+                   height="120"
+                   loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     <script src="./Assets/js/JavaScript.js"></script>
     <script src="./Assets/js/course.js"></script>
+    <script src="./Assets/js/custom.js"></script>
 </body>
 </html>

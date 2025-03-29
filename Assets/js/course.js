@@ -149,3 +149,7 @@ function filterCourses(filter) {
         renderCourses(filteredCourses);
     }, 300);
 }
+
+document.getElementById("hamburger").addEventListener("click", function() {
+    document.getElementById("navLinks").classList.toggle("active");
+  });

@@ -1,39 +1,39 @@
 // Topper data structure
 const toppersData = {
-    "2023": [
+    "2025": [
         {
-            photo: "images/toppers/2023/topper1.jpg",
-            rollNo: "EC2023125",
-            name: "Aarav Sharma",
-            score: "99.5%",
+            photo: "./Assets/image/toppers/2025/topper1.jpg",
+            rollNo: "2500063",
+            name: "Ahatesham Ansari",
+            score: "91.20%",
             rank: 1,
-            story: "Aarav joined ExcelEd in Class 11 and showed consistent improvement. His dedication to solving problems and attending doubt sessions helped him secure the top position in CBSE with 99.5% marks. He credits the faculty's personalized approach for his success."
+            story: "Ahatesham joined Uttam Coaching Center in Class 11 and showed consistent improvement. His dedication to solving problems and attending doubt sessions helped him secure the top position in CBSE with 99.5% marks. He credits the faculty's personalized approach for his success."
         },
         {
-            photo: "images/toppers/2023/topper2.jpg",
-            rollNo: "EC2023126",
-            name: "Priya Patel",
-            score: "99.2%",
+            photo: "./Assets/image/toppers/2025/topper2.jpg",
+            rollNo: "2500090",
+            name: "Khusi Kumari",
+            score: "82.60%",
             rank: 2,
-            story: "Priya was strong in Science but struggled with time management. Through ExcelEd's test series and time management workshops, she improved significantly and secured 99.2% in her boards along with a perfect score in Mathematics."
+            story: "Khusi was strong in Science but struggled with time management. Through Uttam Coaching Center's test series and time management workshops, she improved significantly and secured 99.2% in her boards along with a perfect score in Mathematics."
         },
         {
-            photo: "images/toppers/2023/topper3.jpg",
-            rollNo: "EC2023127",
-            name: "Rohan Verma",
-            score: "98.8%",
+            photo: "./Assets/image/toppers/2025/topper3.jpg",
+            rollNo: "2500036",
+            name: "Rohit Kumar",
+            score: "72.8o%",
             rank: 3,
-            story: "Rohan's journey from scoring 75% in Class 10 to 98.8% in Class 12 is inspirational. He utilized ExcelEd's comprehensive study material and regular assessments to identify and work on his weak areas systematically."
+            story: "Rohit's journey from scoring 75% in Class 10 to 98.8% in Class 12 is inspirational. He utilized Uttam Coaching Center's comprehensive study material and regular assessments to identify and work on his weak areas systematically."
         }
     ],
-    "2022": [
+    "2024": [
         {
             photo: "images/toppers/2022/topper1.jpg",
             rollNo: "EC2022123",
             name: "Neha Gupta",
             score: "99.3%",
             rank: 1,
-            story: "Neha was our all-rounder topper who excelled in both academics and extracurriculars. She attributes her success to ExcelEd's flexible scheduling that allowed her to balance her studies with her passion for debate competitions."
+            story: "Neha was our all-rounder topper who excelled in both academics and extracurriculars. She attributes her success to Uttam Coaching Center's flexible scheduling that allowed her to balance her studies with her passion for debate competitions."
         },
         {
             photo: "images/toppers/2022/topper2.jpg",
@@ -41,17 +41,17 @@ const toppersData = {
             name: "Karan Singh",
             score: "98.9%",
             rank: 2,
-            story: "Karan joined ExcelEd specifically to improve his Physics scores. With the help of our specialized Physics faculty and customized study plan, he not only improved in Physics but became one of our top performers across all subjects."
+            story: "Karan joined Uttam Coaching Center specifically to improve his Physics scores. With the help of our specialized Physics faculty and customized study plan, he not only improved in Physics but became one of our top performers across all subjects."
         }
     ],
-    "2021": [
+    "2023": [
         {
             photo: "images/toppers/2021/topper1.jpg",
             rollNo: "EC2021121",
             name: "Ananya Joshi",
             score: "98.6%",
             rank: 1,
-            story: "Ananya was our first student to score full marks in Chemistry. She says ExcelEd's practical approach to teaching complex chemical concepts made all the difference in her understanding and retention."
+            story: "Ananya was our first student to score full marks in Chemistry. She says Uttam Coaching Center's practical approach to teaching complex chemical concepts made all the difference in her understanding and retention."
         },
         {
             photo: "images/toppers/2021/topper2.jpg",
@@ -59,17 +59,17 @@ const toppersData = {
             name: "Vikram Mehta",
             score: "98.2%",
             rank: 2,
-            story: "Vikram struggled with exam anxiety. Through ExcelEd's mock exam series and stress management sessions, he overcame his fears and performed exceptionally well in his final exams."
+            story: "Vikram struggled with exam anxiety. Through Uttam Coaching Center's mock exam series and stress management sessions, he overcame his fears and performed exceptionally well in his final exams."
         }
     ],
-    "2020": [
+    "2022": [
         {
             photo: "images/toppers/2020/topper1.jpg",
             rollNo: "EC2020120",
             name: "Ishaan Reddy",
             score: "97.8%",
             rank: 1,
-            story: "Ishaan was part of ExcelEd's first batch. His success in the challenging pandemic year demonstrated the effectiveness of our online learning platform and adaptive teaching methodology."
+            story: "Ishaan was part of Uttam Coaching Center's first batch. His success in the challenging pandemic year demonstrated the effectiveness of our online learning platform and adaptive teaching methodology."
         }
     ]
 };
