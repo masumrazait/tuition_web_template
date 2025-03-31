@@ -10,7 +10,7 @@ const toppersData = {
             story: "Ahatesham joined Uttam Coaching Center in Class 11 and showed consistent improvement. His dedication to solving problems and attending doubt sessions helped him secure the top position in CBSE with 99.5% marks. He credits the faculty's personalized approach for his success."
         },
         {
-            photo: "./Assets/image/toppers/2025/topper2.jpg",
+            photo: "./Assets/image/toppers/2025/topper2.png",
             rollNo: "2500090",
             name: "Khusi Kumari",
             score: "82.60%",
@@ -18,7 +18,7 @@ const toppersData = {
             story: "Khusi was strong in Science but struggled with time management. Through Uttam Coaching Center's test series and time management workshops, she improved significantly and secured 99.2% in her boards along with a perfect score in Mathematics."
         },
         {
-            photo: "./Assets/image/toppers/2025/topper3.jpg",
+            photo: "./Assets/image/toppers/2025/topper3.png",
             rollNo: "2500036",
             name: "Rohit Kumar",
             score: "72.8o%",
@@ -28,7 +28,7 @@ const toppersData = {
     ],
     "2024": [
         {
-            photo: "images/toppers/2022/topper1.jpg",
+            photo: "./Assets/image/toppers/2022/topper4.png",
             rollNo: "EC2022123",
             name: "Neha Gupta",
             score: "99.3%",
@@ -36,7 +36,7 @@ const toppersData = {
             story: "Neha was our all-rounder topper who excelled in both academics and extracurriculars. She attributes her success to Uttam Coaching Center's flexible scheduling that allowed her to balance her studies with her passion for debate competitions."
         },
         {
-            photo: "images/toppers/2022/topper2.jpg",
+            photo: "./Assets/image/toppers/2022/topper2.png",
             rollNo: "EC2022124",
             name: "Karan Singh",
             score: "98.9%",
@@ -46,7 +46,7 @@ const toppersData = {
     ],
     "2023": [
         {
-            photo: "images/toppers/2021/topper1.jpg",
+            photo: "./Assets/image/toppers/2021/topper1.jpg",
             rollNo: "EC2021121",
             name: "Ananya Joshi",
             score: "98.6%",
@@ -54,7 +54,7 @@ const toppersData = {
             story: "Ananya was our first student to score full marks in Chemistry. She says Uttam Coaching Center's practical approach to teaching complex chemical concepts made all the difference in her understanding and retention."
         },
         {
-            photo: "images/toppers/2021/topper2.jpg",
+            photo: "./Assets/image/toppers/2021/topper2.png",
             rollNo: "EC2021122",
             name: "Vikram Mehta",
             score: "98.2%",
@@ -64,7 +64,7 @@ const toppersData = {
     ],
     "2022": [
         {
-            photo: "images/toppers/2020/topper1.jpg",
+            photo: "./Assets/image/toppers/2022/topper1.jpg",
             rollNo: "EC2020120",
             name: "Ishaan Reddy",
             score: "97.8%",

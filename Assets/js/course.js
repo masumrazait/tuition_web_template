@@ -7,7 +7,7 @@ const coursesData = [
         category: "science",
         duration: "1 Year Program",
         grade: "Grade 11-12",
-        fee: "₹25,000/year",
+        fee: "₹4,000/year",
         isPopular: true
     },
     {
@@ -17,7 +17,7 @@ const coursesData = [
         category: "commerce",
         duration: "1 Year Program",
         grade: "Grade 11-12",
-        fee: "₹20,000/year"
+        fee: "₹4,000/year"
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ const coursesData = [
         category: "arts",
         duration: "1 Year Program",
         grade: "Grade 11-12",
-        fee: "₹18,000/year"
+        fee: "₹4,000/year"
     },
     {
         id: 4,
@@ -35,9 +35,9 @@ const coursesData = [
         category: "competitive",
         duration: "2 Year Program",
         grade: "Grade 9-10",
-        fee: "₹18,000/year",
+        fee: "₹40,000/year",
         isPopular: true
-    },
+    }, /*
     {
         id: 5,
         title: "CA Foundation Course",
@@ -45,18 +45,18 @@ const coursesData = [
         category: "commerce",
         duration: "6 Month Program",
         grade: "After Class 12",
-        fee: "₹15,000"
-    },
+        fee: "₹2,000"
+    },*/
     {
-        id: 6,
+        id: 5,
         title: "Class 9-10 Science",
-        description: "Strong foundation in Science and Mathematics with practical experiments and projects.",
+        description: "Strong foundation in Science & Mathematics with practical experiments and projects.",
         category: "science",
         duration: "2 Year Program",
         grade: "Grade 9-10",
-        fee: "₹16,000/year"
+        fee: "₹10,000/year"
     },
-    {
+    /*{
         id: 7,
         title: "UPSC Prelims Foundation",
         description: "Comprehensive preparation for UPSC Civil Services Preliminary examination.",
@@ -64,15 +64,15 @@ const coursesData = [
         duration: "1 Year Program",
         grade: "Graduates",
         fee: "₹30,000"
-    },
+    },*/
     {
-        id: 8,
+        id: 6,
         title: "Class 11-12 Fine Arts",
         description: "Specialized program in Painting, Sculpture, and Art History with portfolio development.",
         category: "arts",
         duration: "1 Year Program",
         grade: "Grade 11-12",
-        fee: "₹22,000/year"
+        fee: "₹4,000/year"
     }
 ];
 
